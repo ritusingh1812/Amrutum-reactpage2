@@ -1,38 +1,64 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.amrutum-nav{
+  background-color: rgba(255, 247, 226, 1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.design{
+  background-color:rgba(234, 242, 234, 1);
+  width:100%;
+  height: 241px;
+  overflow: hidden;
+  
 }
+.circle{
+width: 184px;
+height: 184px;
+top: 104px;
+left: 1071px;
+background-color: rgba(207, 235, 207, 0.5);
+border-radius: 130px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+}
+.circle2{
+  width: 184px;
+height: 184px;
+bottom: 150px;
+left: 109px;
+background-color: rgba(207, 235, 207, 0.5);
+border-radius: 130px;
+}
+.search-box{
+  left: 400px;
+  top: 29px;
+  width: 60%;
+  height: 300px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.my-btn{
+  background-color: rgba(243, 243, 243, 1);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.fee-slot{
+  font-family: Arial, Helvetica, sans-serif;
+height: 60px;
+width:110px;
+border: 1px ridge black;
+border-radius: 10px;
+font-size: x-small;
+margin: 2px;
+padding: 5px;
+}
+.my-card{
+  
+  height: 560px;
+  padding:"0px 100px 0px 100px";
+  background-color:rgba(255, 247, 226, 1);
+  border:1px ridge;
+  border-radius: 20px;
+  ;
 }
